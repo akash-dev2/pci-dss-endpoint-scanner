@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "seed": {"type": "integer"},
+    "files": {"type": "integer"},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "file": {"type": "string", "description": "path relative to corpus root"},
+          "class": {"enum": ["valid_pan", "luhn_valid_noncard", "luhn_invalid_numeric", "sad_bearing", "benign"]},
+          "has_pan": {"type": "boolean", "description": "standalone PAN present in cardholder-data context"},
+          "has_sad": {"type": "boolean"},
+          "sad_has_track1": {"type": "boolean"},
+          "sad_has_track2": {"type": "boolean"},
+          "sad_has_cvv": {"type": "boolean"}
+        },
+        "required": ["file", "class", "has_pan", "has_sad", "sad_has_track1", "sad_has_track2", "sad_has_cvv"]
+      }
+    }
+  },
+  "required": ["seed", "files", "entries"]
+}

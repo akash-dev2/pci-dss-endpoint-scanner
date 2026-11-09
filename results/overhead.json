@@ -1,0 +1,84 @@
+{
+  "corpus_gb": 0.0269,
+  "corpus_files": 5000,
+  "conditions": {
+    "P": {
+      "n_measured_reps": 30,
+      "warmup_runs": 1,
+      "median_wall_s": 0.0827,
+      "wall_iqr_s": [
+        0.0801,
+        0.0864
+      ],
+      "median_throughput_s_per_gb": 3.08,
+      "median_cpu_s": 0.0625,
+      "median_peak_rss_mb": 17.96,
+      "median_result_size_mb_per_gb": 14.26,
+      "failure_rate": 0.0
+    },
+    "A": {
+      "n_measured_reps": 30,
+      "warmup_runs": 1,
+      "median_wall_s": 0.0843,
+      "wall_iqr_s": [
+        0.0811,
+        0.0899
+      ],
+      "median_throughput_s_per_gb": 3.14,
+      "median_cpu_s": 0.0781,
+      "median_peak_rss_mb": 18.06,
+      "median_result_size_mb_per_gb": 14.23,
+      "failure_rate": 0.0
+    },
+    "B": {
+      "n_measured_reps": 30,
+      "warmup_runs": 1,
+      "median_wall_s": 7.9005,
+      "wall_iqr_s": [
+        7.7174,
+        8.0002
+      ],
+      "median_throughput_s_per_gb": 294.02,
+      "median_cpu_s": 7.8125,
+      "median_peak_rss_mb": 25.02,
+      "median_result_size_mb_per_gb": 6.26,
+      "failure_rate": 0.0
+    }
+  },
+  "deployment_latency": {
+    "observations": 200,
+    "endpoints": 10,
+    "cycles_per_endpoint": 20,
+    "median_s": 43.255,
+    "iqr_s": [
+      36.07,
+      50.09
+    ],
+    "min_s": 27.43,
+    "max_s": 86.06,
+    "failures": 6,
+    "failure_rate": 0.03,
+    "failure_endpoints": [
+      1,
+      2,
+      6,
+      7
+    ],
+    "endpoint_success_counts": [
+      20,
+      19,
+      19,
+      20,
+      20,
+      20,
+      18,
+      18,
+      20,
+      20
+    ],
+    "reached_endpoints": 10,
+    "reached_definition": "endpoint counted as reached if at least one of its 20 simulated cycles completed",
+    "median_successful_s": 42.995,
+    "method": "simulated demo model (no live AD forest in authoring environment)"
+  }
+}

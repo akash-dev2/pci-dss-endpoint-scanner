@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "accessed": "2025-08",
+  "description": "Issuer identification number (IIN) and length validation rules for PAN classification. Candidate is a PAN iff it passes Luhn, its length is within the accepted range for a recognised prefix, and its prefix matches an entry in the prefixes list. Prefix arrays contain discrete strings and numeric ranges encoded as start/end placeholders.",
+  "rules": [
+    { "brand": "Visa", "prefixes": ["4"], "accept_ends": [13, 16, 19] },
+    { "brand": "Mastercard", "prefix_ranges": ["51-55", "2221-2720"], "accept_lengths": [16] },
+    { "brand": "American Express", "prefixes": ["34", "37"], "accept_lengths": [15] },
+    { "brand": "Discover", "prefixes": ["6011", "65"], "prefix_ranges": ["644-649"], "accept_range": [16, 19] },
+    { "brand": "JCB", "prefix_ranges": ["3528-3589"], "accept_range": [16, 19] },
+    { "brand": "UnionPay", "prefixes": ["62"], "accept_range": [16, 19] },
+    { "brand": "Maestro", "prefixes": ["5018", "5020", "5038", "5893", "6304", "6759", "6761", "6762", "6763"], "accept_range": [12, 19] },
+    { "brand": "Diners Club", "prefixes": ["36", "3095"], "prefix_ranges": ["300-305", "38-39"], "accept_range": [14, 19] }
+  ],
+  "precedence": "Most specific matching prefix wins when ranges overlap."
+}

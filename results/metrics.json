@@ -1,0 +1,141 @@
+{
+  "pan_detection": {
+    "P": {
+      "TP": 570,
+      "FP": 22,
+      "FN": 18,
+      "TN": 4078,
+      "TPR": 96.94,
+      "wilson_95_ci_TPR": [
+        95.21,
+        98.06
+      ],
+      "FPR": 0.54,
+      "wilson_95_ci_FPR": [
+        0.35,
+        0.81
+      ],
+      "precision": 96.28,
+      "f1": 96.6089,
+      "n_positive_files": 588,
+      "n_negative_files": 4100
+    },
+    "A": {
+      "TP": 588,
+      "FP": 110,
+      "FN": 0,
+      "TN": 3990,
+      "TPR": 100.0,
+      "wilson_95_ci_TPR": [
+        99.35,
+        100.0
+      ],
+      "FPR": 2.68,
+      "wilson_95_ci_FPR": [
+        2.23,
+        3.22
+      ],
+      "precision": 84.24,
+      "f1": 91.4459,
+      "n_positive_files": 588,
+      "n_negative_files": 4100
+    },
+    "B": {
+      "TP": 475,
+      "FP": 100,
+      "FN": 113,
+      "TN": 4000,
+      "TPR": 80.78,
+      "wilson_95_ci_TPR": [
+        77.4,
+        83.76
+      ],
+      "FPR": 2.44,
+      "wilson_95_ci_FPR": [
+        2.01,
+        2.96
+      ],
+      "precision": 82.61,
+      "f1": 81.6848,
+      "n_positive_files": 588,
+      "n_negative_files": 4100
+    }
+  },
+  "sad_detection": {
+    "track1": {
+      "class": "sad_track1",
+      "TP": 155,
+      "FP": 0,
+      "FN": 0,
+      "TN": 4845,
+      "TPR": 100.0,
+      "wilson_95_ci_TPR": [
+        97.58,
+        100.0
+      ],
+      "FPR": 0.0,
+      "wilson_95_ci_FPR": [
+        0.0,
+        0.08
+      ]
+    },
+    "track2": {
+      "class": "sad_track2",
+      "TP": 157,
+      "FP": 0,
+      "FN": 0,
+      "TN": 4843,
+      "TPR": 100.0,
+      "wilson_95_ci_TPR": [
+        97.61,
+        100.0
+      ],
+      "FPR": 0.0,
+      "wilson_95_ci_FPR": [
+        0.0,
+        0.08
+      ]
+    },
+    "cvv": {
+      "class": "sad_cvv_context",
+      "TP": 88,
+      "FP": 540,
+      "FN": 0,
+      "TN": 4372,
+      "TPR": 100.0,
+      "wilson_95_ci_TPR": [
+        95.82,
+        100.0
+      ],
+      "FPR": 10.99,
+      "wilson_95_ci_FPR": [
+        10.15,
+        11.9
+      ]
+    },
+    "overall": {
+      "TPR": 100.0
+    }
+  },
+  "paired_tests": {
+    "TPR_change_pp": -3.06,
+    "FPR_change_pp": -2.14,
+    "mcnemar_TPR": {
+      "discordant_A_only": 18,
+      "discordant_P_only": 0,
+      "chi2": 16.056,
+      "p": 6e-05
+    },
+    "mcnemar_FPR": {
+      "discordant_A_only": 88,
+      "discordant_P_only": 0,
+      "chi2": 86.011,
+      "p": 0.0
+    }
+  },
+  "fp_reduction_percent": 80.0,
+  "recall_cost_pp": 3.06,
+  "eliminated_false_positives": 88,
+  "added_false_negatives": 18,
+  "condition_B_class_label": false
+}

@@ -1,0 +1,7 @@
+{
+  "name": "condition_A",
+  "description": "Luhn-only baseline: regex extraction + Luhn validation, IIN/length validation disabled",
+  "iin_validation": false,
+  "max_bytes": 5242880,
+  "scanner_reference": "scanner/lightweight_pci_scanner.py (this artifact)"
+}

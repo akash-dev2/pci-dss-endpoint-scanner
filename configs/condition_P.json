@@ -1,0 +1,7 @@
+{
+  "name": "condition_P",
+  "description": "Proposed scanner: regex extraction + Luhn + IIN/length validation",
+  "iin_validation": true,
+  "max_bytes": 5242880,
+  "scanner_reference": "scanner/lightweight_pci_scanner.py (this artifact)"
+}

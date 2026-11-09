@@ -1,0 +1,13 @@
+condition,category,count,percentage
+P,Luhn-passing non-card number,21,3.74
+P,Card-like numeric identifier with no recognised IIN,0,0.0
+P,Partial match in binary or encoded content,1,0.18
+P,SAD keyword-digit proximity over-match,540,96.09
+A,Luhn-passing non-card number,21,3.23
+A,Card-like numeric identifier with no recognised IIN,79,12.15
+A,Partial match in binary or encoded content,10,1.54
+A,SAD keyword-digit proximity over-match,540,83.08
+B,Luhn-passing non-card number,21,21.0
+B,Card-like numeric identifier with no recognised IIN,79,79.0
+B,Partial match in binary or encoded content,0,0.0
+B,SAD keyword-digit proximity over-match,0,0.0

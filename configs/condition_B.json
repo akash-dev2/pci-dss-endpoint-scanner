@@ -1,0 +1,7 @@
+{
+  "name": "condition_B",
+  "description": "Independent cross-check scanner: separately implemented regex+Luhn, no IIN validation, no detection-class label",
+  "iin_validation": false,
+  "max_bytes": 5242880,
+  "scanner_reference": "evaluation/cross_check_scanner.py v0.2 (independent implementation), artifact-local open-source release"
+}

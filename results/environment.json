@@ -1,0 +1,19 @@
+{
+  "reference_endpoint": {
+    "host": "Akash",
+    "windows_version": "10.0.26200",
+    "windows_platform": "Windows-11",
+    "python_version": "3.14.5",
+    "role": "carries all detection-performance and scan-overhead measurements (Tables 2-4)"
+  },
+  "modelled_deployment_environment": {
+    "modelled": true,
+    "endpoints": 10,
+    "windows_version": "Windows 11 23H2 (modelled)",
+    "ad_functional_level": "Windows Server 2016 (assumed by model)",
+    "dc_version": "Windows Server 2019 (assumed by model)",
+    "source": "results/overhead.json -> deployment_latency (deterministic refresh-schedule model; \u00a74.1, \u00a78)"
+  },
+  "corpus_gb": 0.0269,
+  "corpus_files": 5000
+}
