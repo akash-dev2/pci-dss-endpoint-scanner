@@ -1,6 +1,6 @@
 Reproduction receipt - artifact version v1.0 (August 2025)
 Host: reference-host - AMD64, Microsoft Windows (see README.md for exact build)
-Python: Python 3.14.5
+Python: Python 3.13.x
 
 SHA256 hashes of evaluation inputs and outputs:
 3ab86012497fd4b565d5ae01cbb2762b13d94ebf4527569f38d6caa278334865  results/metrics.json

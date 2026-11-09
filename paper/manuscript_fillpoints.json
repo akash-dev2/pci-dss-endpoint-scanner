@@ -19,7 +19,7 @@
  "WINDOWS_VERSION": "Windows 11 (build 10.0.26200) / Windows Server 2019 file server",
  "AD_FUNCTIONAL_LEVEL": "Windows Server 2016",
  "DC_VERSION": "Windows Server 2019",
- "PYTHON_VERSION": "3.14.5",
+ "PYTHON_VERSION": "3.13.x",
  "CORPUS_GB": 0.0269,
  "TP_P": 570,
  "FP_P": 22,

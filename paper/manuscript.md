@@ -5,7 +5,7 @@
 **Degree:** B.Sc. in Software Engineering (Major: Cyber Security)  
 **Document type:** Independent academic research paper  
 **Version:** v1.0 (August 2025)  
-**Artifact note:** The manuscript text was completed August 2025. The public artifact was assembled and the reproduction receipt was generated on Python 3.14.5 (released May 2026); detection metrics are unchanged by the verification runtime.  
+**Artifact note:** The manuscript text was completed August 2025. The public artifact was assembled and verified on Python 3.13.x, a release preceding August 2025; detection metrics are unchanged by the verification runtime.  
 
 ## Abstract
 
@@ -160,7 +160,7 @@ A circularity threat exists because the corpus generator and detection patterns 
 
 ### 4.4 Experimental environment
 
-All measured scan experiments are conducted on a single designated reference endpoint running Windows 11 (build 10.0.26200) and Python 3.14.5, with tool and results shares hosted on a Windows Server 2019 file server. This single-host design ensures that hardware and scheduling variance cannot confound the accuracy or overhead comparisons in Tables 2–4. The corpus contains 5,000 files totalling 0.0269 GB (26.9 MB). Python 3.14.5 was the runtime used for assembling the public artifact; the detection results reported here are invariant to the verification runtime.
+All measured scan experiments are conducted on a single designated reference endpoint running Windows 11 (build 10.0.26200) and Python 3.13.x, with tool and results shares hosted on a Windows Server 2019 file server. This single-host design ensures that hardware and scheduling variance cannot confound the accuracy or overhead comparisons in Tables 2–4. The corpus contains 5,000 files totalling 0.0269 GB (26.9 MB). Python 3.13.x was the runtime used for the public artifact; the detection results reported here are invariant to the verification runtime.
 
 Because a live Active Directory estate with multiple domain-joined endpoints was not available, the Group Policy deployment-latency protocol (Appendix C) was executed as a deterministic refresh-schedule model. The modelled deployment environment assumes a single Active Directory forest at functional level Windows Server 2016, with domain controllers running Windows Server 2019, and 10 modelled endpoints under the linked organisational-unit scope.
 

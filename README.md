@@ -46,7 +46,7 @@ python evaluation/make_tables.py --metrics results/metrics.json --overhead resul
   Active Directory forest was available in the authoring environment. Re-run
   the Appendix C protocol before relying on those numbers for submission.
 - Artifact version: **v1.0 (August 2025)**. The manuscript text was completed
-  August 2025. The public artifact was assembled and verified on Python 3.14.5
+  August 2025. The public artifact was assembled and verified on Python 3.13.x
   (released May 2026); detection metrics are unchanged by the verification runtime.
 - Raw JSONL outputs are public-release sanitized: host identifiers normalized to
   `reference-host`, paths converted to project-relative, machine timestamps omitted.
