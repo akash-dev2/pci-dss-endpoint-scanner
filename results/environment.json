@@ -1,6 +1,6 @@
 {
   "reference_endpoint": {
-    "host": "Akash",
+    "host": "reference-host",
     "windows_version": "10.0.26200",
     "windows_platform": "Windows-11",
     "python_version": "3.14.5",
@@ -12,8 +12,10 @@
     "windows_version": "Windows 11 23H2 (modelled)",
     "ad_functional_level": "Windows Server 2016 (assumed by model)",
     "dc_version": "Windows Server 2019 (assumed by model)",
-    "source": "results/overhead.json -> deployment_latency (deterministic refresh-schedule model; \u00a74.1, \u00a78)"
+    "source": "results/overhead.json -> deployment_latency (deterministic refresh-schedule model; §4.1, §8)"
   },
   "corpus_gb": 0.0269,
-  "corpus_files": 5000
+  "corpus_files": 5000,
+  "artifact_version": "v1.0 (August 2025)",
+  "public_release_note": "Host identifier normalized to reference-host; machine execution timestamps were omitted from the public raw JSONL outputs."
 }

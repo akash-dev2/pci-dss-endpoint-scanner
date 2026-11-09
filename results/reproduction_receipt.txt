@@ -1,15 +1,20 @@
-﻿Reproduction receipt - generated 2026-11-03T23:24:24 (local machine time)
-Host: AKASH - AMD64, Microsoft Windows (see README.md for exact build)
+Reproduction receipt - artifact version v1.0 (August 2025)
+Host: reference-host - AMD64, Microsoft Windows (see README.md for exact build)
 Python: Python 3.14.5
 
- SHA256 hashes of evaluation inputs and outputs:
-3ab86012497fd4b565d5ae01cbb2762b13d94ebf4527569f38d6caa278334865  results\metrics.json
-6d8c4971e5571d993703c11326998923459cc8bbf7264134cf7e1b0668efbe11  results\overhead.json
-a165839f2d1d26dbb69431e489a2917b8bc54e4307f10bd468b03a0a0c2e7644  results\fp_classification.csv
-5a67a0a60e216506a9a75f67bf4e51794802ed8023851f22f4134092d91747f2  results\condition_P\scan_results.jsonl
-1197102b1602587fcf33e4161fddbf3590684f3e9e7eac8afd1203859bb58613  results\condition_A\scan_results.jsonl
-e2035b538264594b173def3932e468a7e13ba316b0099a947a1e76f141f0cdae  results\condition_B\scan_results.jsonl
-dfeea22e6795bc22f4037845f33d334132c61ae1a57590fe64bf4111bbffd8f4  corpus\manifest.json
+SHA256 hashes of evaluation inputs and outputs:
+3ab86012497fd4b565d5ae01cbb2762b13d94ebf4527569f38d6caa278334865  results/metrics.json
+6d8c4971e5571d993703c11326998923459cc8bbf7264134cf7e1b0668efbe11  results/overhead.json
+a165839f2d1d26dbb69431e489a2917b8bc54e4307f10bd468b03a0a0c2e7644  results/fp_classification.csv
+eaedd95ae5d89078fd64bead4111adcf0a250686fc6027bf7fddeb3c185fc2a3  results/condition_P/scan_results.jsonl
+0254a167caa8c063653f901ed010c3fc2201b2e8006969927c5f6e4f09f16cd8  results/condition_A/scan_results.jsonl
+6b4abc4e9b9a10e5e883543b0821c6f8224d759533ae085e0a050c14e996a486  results/condition_B/scan_results.jsonl
+dfeea22e6795bc22f4037845f33d334132c61ae1a57590fe64bf4111bbffd8f4  corpus/manifest.json
+
+Public-release note: host identifiers were normalized to reference-host,
+absolute local paths were converted to project-relative paths, and machine
+execution timestamps were omitted from the raw JSONL outputs. Detection
+records, counts, and published metrics are unchanged.
 
 Reproduction command sequence: paper/manuscript.md Appendix A (steps 1-7).
 Corpus: 5000 content files, seed 42 (corpus/manifest.json).
