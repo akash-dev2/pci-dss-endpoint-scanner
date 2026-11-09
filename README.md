@@ -4,7 +4,11 @@ Version 1.0 (research paper v1.0, August 2025)
 
 Repository: https://github.com/akash-dev2/pci-dss-endpoint-scanner
 
-Standard-library-only Python scanner for PCI DSS v4.0.1 pan/SAD detection,
+## Paper
+- [`paper/Akash_Dev_Research_Paper.docx`](paper/Akash_Dev_Research_Paper.docx) — editable Word version (v1.0, August 2025)
+- [`paper/manuscript.md`](paper/manuscript.md) — Markdown source
+
+Standard-library-only Python scanner for PCI DSS v4.0.1 PAN/SAD detection,
 deployed through Active Directory Group Policy, evaluated against a
 deterministic synthetic corpus.
 
