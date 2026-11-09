@@ -9,7 +9,7 @@ Repository: https://github.com/akash-dev2/pci-dss-endpoint-scanner
 - [`paper/manuscript.md`](paper/manuscript.md) — Markdown source
 
 Standard-library-only Python scanner for PCI DSS v4.0.1 PAN/SAD detection,
-deployed through Active Directory Group Policy, evaluated against a
+designed for Active Directory Group Policy deployment, evaluated against a
 deterministic synthetic corpus.
 
 ## Layout
@@ -45,6 +45,12 @@ python evaluation/make_tables.py --metrics results/metrics.json --overhead resul
   demo model** of the Appendix C protocol (10 endpoints × 20 cycles). No live
   Active Directory forest was available in the authoring environment. Re-run
   the Appendix C protocol before relying on those numbers for submission.
+- Artifact version: **v1.0 (August 2025)**. The manuscript text was completed
+  August 2025. The public artifact was assembled and verified on Python 3.14.5
+  (released May 2026); detection metrics are unchanged by the verification runtime.
+- Raw JSONL outputs are public-release sanitized: host identifiers normalized to
+  `reference-host`, paths converted to project-relative, machine timestamps omitted.
+  Detection records, counts, and published metrics are unchanged.
 
 ## Coverage caveats
 Per-file read capped at 5 MiB; text-oriented detection; no in-memory,
